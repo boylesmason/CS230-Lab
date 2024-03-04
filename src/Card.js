@@ -4,30 +4,27 @@ import { Card, CardDeck } from 'react-bootstrap';
 const myCard = () => {
   return (
     <CardDeck>
-      <Card>
-        <Card.Img variant="top" src="https://via.placeholder.com/150" />
+      <Card bg="primary" text="white">
         <Card.Body>
-          <Card.Title>Card 1</Card.Title>
+          <Card.Title>Card 01</Card.Title>
+          <Card.Text>
+            
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card bg="danger" text="white">
+        <Card.Body>
+          <Card.Title>Card 02</Card.Title>
           <Card.Text>
             Placeholder
           </Card.Text>
         </Card.Body>
       </Card>
 
-      <Card>
-        <Card.Img variant="top" src="https://via.placeholder.com/150" />
+      <Card bg="success" text="white"> 
         <Card.Body>
-          <Card.Title>Card 2</Card.Title>
-          <Card.Text>
-            Placeholder
-          </Card.Text>
-        </Card.Body>
-      </Card>
-
-      <Card>
-        <Card.Img variant="top" src="https://via.placeholder.com/150" />
-        <Card.Body>
-          <Card.Title>Card 3</Card.Title>
+          <Card.Title>Card 03</Card.Title>
           <Card.Text>
             Placeholder
           </Card.Text>
