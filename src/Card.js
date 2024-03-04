@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Card = () => {
+function Card () {
   return (
     <div>
     <div class="card text-bg-primary mb-3" style={{maxWidth: 400, display: 'inline-block', margin: 20}}>
